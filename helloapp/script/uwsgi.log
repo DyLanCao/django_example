@@ -1,0 +1,133 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Sep 10 09:57:24 2019] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 26 February 2019 12:09:19
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+nodename: caoyin.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/caoyin/Documents/igihub/django/django_example/helloapp
+writing pidfile to /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.pid
+detected binary path: /Users/caoyin/anaconda3/bin/uwsgi
+chdir() to /Users/caoyin/Documents/igihub/django/django_example/helloapp/
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:8008 fd 3
+uwsgi socket 0 bound to UNIX address /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.sock fd 6
+Python version: 3.7.1 | packaged by conda-forge | (default, Feb 25 2019, 21:02:05)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+Python main interpreter initialized at 0x7f8ddb6016f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8ddb6016f0 pid: 5521 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5521)
+spawned uWSGI worker 1 (pid: 5530, cores: 1)
+spawned uWSGI worker 2 (pid: 5531, cores: 1)
+spawned uWSGI worker 3 (pid: 5532, cores: 1)
+spawned uWSGI worker 4 (pid: 5533, cores: 1)
+spawned uWSGI worker 5 (pid: 5534, cores: 1)
+spawned uWSGI http 1 (pid: 5535)
+[pid: 5530|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 824 bytes} [Tue Sep 10 01:57:59 2019] GET / => generated 16348 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 96 bytes (3 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 5530|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 760 bytes} [Tue Sep 10 01:57:59 2019] GET /static/admin/css/fonts.css => generated 2019 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 5530|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 751 bytes} [Tue Sep 10 01:57:59 2019] GET /favicon.ico => generated 1974 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Sep 10 10:14:54 2019] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 26 February 2019 12:09:19
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+nodename: caoyin.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/caoyin/Documents/igihub/django/django_example/helloapp
+writing pidfile to /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.pid
+detected binary path: /Users/caoyin/anaconda3/bin/uwsgi
+chdir() to /Users/caoyin/Documents/igihub/django/django_example/helloapp/
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.sock fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8008).
+bind(): Address already in use [core/socket.c line 769]
+Tue Sep 10 02:17:52 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Sep 10 02:17:53 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Sep 10 02:17:53 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Sep 10 02:17:53 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue Sep 10 02:17:53 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Sep 10 10:18:43 2019] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 26 February 2019 12:09:19
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+nodename: caoyin.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/caoyin/Documents/igihub/django/django_example/helloapp
+writing pidfile to /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.pid
+detected binary path: /Users/caoyin/anaconda3/bin/uwsgi
+chdir() to /Users/caoyin/Documents/igihub/django/django_example/helloapp/
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.sock fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8008).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Sep 10 10:27:04 2019] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 26 February 2019 12:09:19
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64
+nodename: caoyin.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/caoyin/Documents/igihub/django/django_example/helloapp
+writing pidfile to /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.pid
+detected binary path: /Users/caoyin/anaconda3/bin/uwsgi
+chdir() to /Users/caoyin/Documents/igihub/django/django_example/helloapp/
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: enabled
+uwsgi socket 0 bound to UNIX address /Users/caoyin/Documents/igihub/django/django_example/helloapp/script/uwsgi.sock fd 3
+uwsgi socket 1 bound to TCP address 127.0.0.1:8008 fd 4
+Python version: 3.7.1 | packaged by conda-forge | (default, Feb 25 2019, 21:02:05)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+Python main interpreter initialized at 0x7fd5f77013f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486576 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd5f77013f0 pid: 6445 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6445)
+spawned uWSGI worker 1 (pid: 6454, cores: 1)
+spawned uWSGI worker 2 (pid: 6455, cores: 1)
+spawned uWSGI worker 3 (pid: 6456, cores: 1)
+spawned uWSGI worker 4 (pid: 6457, cores: 1)
+spawned uWSGI worker 5 (pid: 6458, cores: 1)
+[pid: 6454|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 889 bytes} [Tue Sep 10 02:27:45 2019] GET / => generated 16348 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 6454|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 820 bytes} [Tue Sep 10 02:27:45 2019] GET /static/admin/css/fonts.css => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6454|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 811 bytes} [Tue Sep 10 02:27:45 2019] GET /favicon.ico => generated 1969 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6454|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 913 bytes} [Tue Sep 10 03:28:42 2019] GET / => generated 16348 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 96 bytes (2 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 6454|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 844 bytes} [Tue Sep 10 03:28:42 2019] GET /static/admin/css/fonts.css => generated 2014 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6454|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 913 bytes} [Tue Sep 10 05:31:08 2019] GET / => generated 16348 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 96 bytes (2 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 6454|app: 0|req: 7/7] 127.0.0.1 () {48 vars in 844 bytes} [Tue Sep 10 05:31:09 2019] GET /static/admin/css/fonts.css => generated 2014 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+[pid: 6454|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 880 bytes} [Tue Sep 10 14:55:05 2019] GET / => generated 16348 bytes in 44 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 6454|app: 0|req: 9/9] 127.0.0.1 () {48 vars in 811 bytes} [Tue Sep 10 14:55:05 2019] GET /static/admin/css/fonts.css => generated 2014 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
