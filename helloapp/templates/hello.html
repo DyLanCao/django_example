@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ 
+ 
+<ul>
+    <li><a href="/">首页</a></li>
+    <li><a href="{% url 'login' %}?next=asd/ ">登录</a></li>
+    <li><a href="{% url 'book' %}">读书</a></li>
+    <li><a href="{% url 'movie' %}">电影</a></li>
+    <li><a href="{% url 'detail' book_id='1' catgray=2 %}">这个是dylan的第一个example</a></li>
+</ul>
+ 
+</body>
+
