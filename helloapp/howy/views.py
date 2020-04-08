@@ -16,7 +16,7 @@ def hello(request):
 def hello(request):
     tem = isensor.getTemHum()
     #html = "<html><body>It is now %s.</body></html>" % tem
-    html = "<html><body><h1>wifi_iot demo </h1> <p> data from isensor:%s </p></body></html>" % tem
+    html = "<!DOCTYPE html><html><head><title>wifi_iot</title><style>body{text_align:center}</style></head><body><div><h1>wifi_iot demo </h1></div> <p> data from isensor </p><p>views:%s</p></body></html>" % tem
     return HttpResponse(html)
 
 def login(request):
