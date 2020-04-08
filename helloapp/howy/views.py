@@ -3,11 +3,21 @@ from distutils.command import register
  
 from django.shortcuts import render, reverse, redirect
 from django.http import HttpResponse
- 
+
+from . import isensor
+
+'''
 def hello(request):
     context          = {}
     context['hello'] = 'Hello World!'
-    return render(request, 'hello.html', context) 
+    return render(request, 'index.html', context) 
+'''
+
+def hello(request):
+    tem = isensor.getTemHum()
+    #html = "<html><body>It is now %s.</body></html>" % tem
+    html = "<html><body><h1>wifi_iot demo </h1> <p> data from isensor:%s </p></body></html>" % tem
+    return HttpResponse(html)
 
 def login(request):
     return render(request, 'login.html', {'articles': 18})
