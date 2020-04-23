@@ -17,8 +17,9 @@ def hello(request):
     tem = isensor.getTemHum()
     tes = isensor.getMpu()
     tss = isensor.getMax()
+    sleep = isensor.sleep_state()
     #html = "<html><body>It is now %s.</body></html>" % tem
-    html = "<!DOCTYPE html><html><head><title>wifi_iot</title><style>body{text_align:center}</style></head><body><div><h1>wifi_iot demo </h1></div> <p> data from isensor </p><p>views:%s</p><p>mpu6050:%s </p><p>max30100:%s </p></body></html>" % (tem,tes,tss) 
+    html = "<!DOCTYPE html><html><head><title>wifi_iot</title><style>body{text_align:center}</style></head><body><div><h1>栗润泽: 165120215 毕业设计--基于wifi的人睡眠监控系统 </h1></div> <p> data from isensor </p><p>views:%s</p><p>mpu6050:%s </p><p>max30100:%s </p><p>睡眠状态统计结果:%s</p></body></html>" % (tem,tes,tss,sleep) 
     return HttpResponse(html)
 
 def login(request):
